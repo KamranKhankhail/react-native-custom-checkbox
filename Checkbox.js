@@ -48,7 +48,7 @@ class Checkbox extends Component {
                 style={{backgroundColor: BACKGROUND_COLOR, borderColor: BORDER_COLOR,
                         borderRadius: BORDER_RADIUS, borderWidth: BORDER_WIDTH,
                         height: SIZE, margin: MARGIN, width: SIZE }}>
-                <View style={{flex: 1, alignItems: 'center'}}>
+                <View style={{flex: 1, alignItems: 'center', backgroundColor: BACKGROUND_COLOR}}>
                     { this.state.checked &&
                     <Icon name='check' size={SIZE - 5 } color={COLOR}/> }
                 </View>
